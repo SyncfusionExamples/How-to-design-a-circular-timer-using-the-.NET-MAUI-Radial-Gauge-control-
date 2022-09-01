@@ -8,6 +8,7 @@
         <gauge:SfRadialGauge.Axes>
             <gauge:RadialAxis StartAngle="270"
                               EndAngle="270"
+                              Minimum="0"
                               Maximum="60"
                               ShowLabels="False"
                               ShowTicks="False">
@@ -36,7 +37,7 @@
                                         Clicked="play_pause_Clicked"
                                         Text="&#xe737;"
                                         IsVisible="True"
-                                        FontSize="Large"
+                                        FontSize="50"
                                         FontFamily="Sync FontIcons"
                                         TextColor="Blue"
                                         HeightRequest="40"
@@ -49,7 +50,7 @@
                                         Clicked="play_pause_Clicked"
                                         Text="&#xe769;"
                                         IsVisible="False"
-                                        FontSize="Medium"
+                                        FontSize="50"
                                         FontFamily="Sync FontIcons"
                                         TextColor="Blue"
                                         HeightRequest="40"

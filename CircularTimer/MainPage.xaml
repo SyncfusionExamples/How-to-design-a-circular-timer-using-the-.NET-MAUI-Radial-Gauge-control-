@@ -14,6 +14,7 @@
                               ShowTicks="False">
                 <gauge:RadialAxis.Pointers>
                     <gauge:RangePointer x:Name="range"
+                                        x:DataType="gauge:ShapePointer"
                                         Value="{Binding Source={x:Reference pointer},Path=Value}"
                                         EnableAnimation="True"
                                         Fill="Blue" />
@@ -40,8 +41,6 @@
                                         FontSize="50"
                                         FontFamily="Sync FontIcons"
                                         TextColor="Blue"
-                                        HeightRequest="40"
-                                        WidthRequest="50"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Center"
                                         BackgroundColor="Transparent"
@@ -53,8 +52,6 @@
                                         FontSize="50"
                                         FontFamily="Sync FontIcons"
                                         TextColor="Blue"
-                                        HeightRequest="40"
-                                        WidthRequest="50"
                                         HorizontalOptions="Center"
                                         VerticalOptions="Center"
                                         BackgroundColor="Transparent"
